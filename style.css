@@ -1,0 +1,599 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	min-width: 430px;
+	background-image: url(./svg/back.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	padding: 20px;
+}
+
+.head {
+	min-width: 430px;
+	max-width: 960px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	padding: 20px;
+	color: #ffffff;
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+}
+
+.line {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	min-width: 430px;
+	border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.content {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 930px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.texth1 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 60px;
+	padding-top: 160px;
+}
+
+.line2 {
+	width: 133px;
+	height: 0px;
+	border: 1px solid #FED233;
+}
+
+.texth2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 30px;
+	color: white;
+}
+
+.button {
+	width: 266px;
+	height: 53px;
+	background: #FED233;
+	border-radius: 7px;
+	border: 0;
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	color: #333333;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	padding: 19px;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 200px;
+}
+
+.vector {
+	color: #333333;
+	width: 6px;
+	height: 10px;
+}
+
+.second {
+	width: 213px;
+	height: 73px;
+	margin-top: -170px;
+}
+
+.pro {
+	padding: 0 0 20px 80px;
+}
+
+
+/* второй раздел */
+
+.conteiner2 {
+	background: #ffffff;
+	margin-bottom: 100px;
+}
+
+.theme2 {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+}
+
+.texth2h3 h2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 130px;
+}
+
+.texth2h3 h3 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: normal;
+	color: #333333;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+.grid {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.border {
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+
+.block {
+	width: 280px;
+	height: 250px;
+	border: 1px solid #F2F2F2;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.block h3 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 600;
+	color: #4F4F4F;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.block .icon {
+	width: 78px;
+	height: 60px;
+	padding-top: 50px;
+}
+
+.block .line3 {
+	width: 260px;
+	height: 0px;
+	border: 0.5px solid #E0E0E0;
+}
+
+.block h4 a {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 600;
+	color: #BDBDBD;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.block h4 a {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.block h4 a img {
+	padding-left: 150px;
+}
+
+.block:hover {
+	border: 2px solid #FED233;
+	border-radius: 7px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+/* третий блок */
+
+.container3 {
+	background: #F9FAFC;
+}
+
+.offers {
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.texth2_2 h2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	color: #333333;
+	font-size: 40px;
+	line-height: 15px;
+}
+
+.texth2_2 p {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #333333;
+}
+
+.grid2 {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.block_info h2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 900;
+	font-size: 32px;
+	color: #FED233;
+	margin-bottom: 15px;
+}
+
+.block_info .line4 {
+	width: 280px;
+	height: 0px;
+	border: 1px solid #BDBDBD;
+}
+
+.block_info h3 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #828282;
+	line-height: 30px;
+}
+
+
+/* четвертая часть */
+
+.container4 {
+	width: 100%;
+	min-width: 430px;
+	background-image: url(./svg/back.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.back {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	padding-top: 100px;
+}
+
+.feedback {
+	display: flex;
+	flex-direction: column;
+}
+
+.feedback h2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.name {
+	justify-content: flex-start;
+	align-items: center;
+	width: 400px;
+	height: 50px;
+	background: #FFFFFF;
+	border-radius: 7px;
+	padding-left: 15px;
+	border: 0;
+	margin-bottom: 25px;
+}
+
+.name::placeholder {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #444444;
+}
+
+.tel {
+	justify-content: flex-start;
+	align-items: center;
+	width: 400px;
+	height: 50px;
+	background: #FFFFFF;
+	border-radius: 7px;
+	padding-left: 15px;
+	border: 0;
+}
+
+.tel::placeholder {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #444444;
+}
+
+
+/* .circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 0;
+    background: white;
+}  */
+
+.i_agree {
+	display: flex;
+	align-items: center;
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+
+.i_agree span {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+.tap {
+	padding-top: 140px;
+	margin-bottom: 100px;
+	width: 266px;
+	height: 53px;
+	background: #FED233;
+	border-radius: 7px;
+	border: 0;
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	color: #333333;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	padding: 19px;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 100px;
+}
+
+
+/* пятая часть. */
+
+.conteiner5 {
+	background: #ffffff;
+	margin-bottom: 40px;
+}
+
+.theme3 {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+}
+
+.texth2h3_2 h2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 130px;
+}
+
+.texth2h3_2 h3 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: normal;
+	color: #333333;
+	line-height: 30px;
+}
+
+.grid3 {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.border2 {
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	/* margin-left: 20px; */
+}
+
+.block1 {
+	width: 300px;
+	height: 250px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-align: left;
+	padding: 0 15px 0 0;
+}
+
+.block1 h2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+	color: #FED233;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.block1 .line4 {
+	width: 250px;
+	height: 0px;
+	border: 1px solid #BDBDBD;
+}
+
+.block1 h3 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #828282;
+	line-height: 30px;
+}
+
+
+/* шестой блок  */
+
+.container6 {
+	background: #141414;
+	padding-bottom: 75px;
+}
+
+.last_block {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	padding-top: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.line4 {
+	width: 133px;
+	height: 0px;
+	border: 1px solid #FED233;
+}
+
+.last_block h2 {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: #ffffff;
+}
+
+.h2img {
+	display: flex;
+}
+
+.h2img img {
+	padding-left: 30px;
+}
+
+.tap2 {
+	padding-top: 140px;
+	width: 266px;
+	height: 53px;
+	background: #FED233;
+	border-radius: 7px;
+	border: 0;
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	color: #333333;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	padding: 19px;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.last_block a {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.last_block span {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+
+/* Ураааа!!!! Футер!! Юхууууууу! Бл хоть бы не переделывать ибо 6той раз уже залётный */
+
+footer {
+	background: #141414;
+	height: 50px;
+}
+
+.final {
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
+	min-width: 430px;
+	max-width: 960px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.line5 {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	min-width: 430px;
+	border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.final a {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+}

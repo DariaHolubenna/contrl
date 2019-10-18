@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="slideshare" unicode="&#xf1e7;" d="M487 437q0-46-35-79t-85-34-85 34-36 79q0 47 36 80t85 33 85-33 35-80z m280 0q0-46-35-79t-85-34q-50 0-85 34t-36 79q0 47 36 80t85 33q50 0 85-33t35-80z m126-100v372q0 48-18 69t-62 20h-620q-47 0-63-19t-17-70v-376q24-13 50-22t45-16 45-10 40-6 39-2 32-1 32 2 25 1q38 0 53-15 3-4 5-5 15-14 34-29 4 51 66 49 3 0 21-1t24-1 25-1 30 1 30 2 34 5 35 7 37 11 38 15 40 20z m91 2q-68-83-208-140 47-159-13-260-36-63-102-82-58-18-101 8-48 28-46 92l-1 182v0q-4 1-13 3t-13 3l-1-188q2-64-46-92-44-26-102-8-66 20-102 83-58 101-12 259-140 57-208 140-14 21-2 36t33-1q3-1 7-4t6-4v387q0 40 26 69t64 28h701q37 0 64-28t26-69v-387l12 8q21 15 33 1t-2-36z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
